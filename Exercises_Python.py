@@ -5,7 +5,7 @@ print("hello" , "\n" ,"\t","hello" ,"\n" ,"\t","\t", "hello")
 
 
 #Exercises 2
-print("Orange"*20)
+print("Orange\ns"*20)
 
 #Exercises 3
 """

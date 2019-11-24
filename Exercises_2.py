@@ -1,5 +1,5 @@
 #Exercise 1
-'''
+
 try:
   n = int(input("Please Enter any number: "))
   m = int(input("Please Enter other number: "))
@@ -31,7 +31,7 @@ for k in range(5 ,-1 ,-1):
         print("*" ,end="") 
     print("*")
 
-
+'''
 #Exercise 4
     
 x
@@ -56,7 +56,7 @@ c
 2
 3
 
-
+'''
 #Exercise 7
 num = int(input("enter num: "))
 sum = 0
@@ -88,7 +88,6 @@ while True:
 #Exercise 11
 
 
-Error Occurred and Handled
 
 
 '''
@@ -103,7 +102,7 @@ for k in range(5 ,-1 ,-1):
     print("*")
     
 
-
+'''
    
 
 

@@ -8,7 +8,7 @@ for x in list1:
 print("The Sum = ",sum(list1))
 
 # Exercise 3
-print("The Max = " , list1)
+print("The Max = " ,max(list1))
 
 # Exercise 4
 a = [10 , 20 , 30 , 20 , 10 , 50 , 60 , 40 , 80 , 50 , 40]
