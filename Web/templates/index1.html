@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <script>src = "{{url_for('static',filename= 'js.js')}}"</script>
+    <body style="background: skyblue;">
+        <header style="background: rosybrown; margin-left: 45%;width: 310px;font-size:xx-large;">
+                Welcome to My World! <title>{{title}}</title>
+        </header>
+        <h1 style="color:red;">
+            hello !
+            hi 
+        </h1>
+        {% if mark>=50 %}
+        <h2>Pass</h2>
+        {% else %}
+        <h2>Fail</h2>
+        {% endif %}
+    </body>
+</html>
