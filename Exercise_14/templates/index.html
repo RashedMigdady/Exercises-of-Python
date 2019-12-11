@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Q3</title>
+  </head>
+
+  <body>
+    {% if marks >= 90 %}
+      <h1>Got A</h1>
+    ​{%elif marks< 90 and marks >= 80 %}
+      <h1>Got B</h1>
+    ​{%elif marks< 80 and marks >= 70 %}
+      <h1>Got C</h1>
+    ​{%elif marks< 70 and marks >= 60 %}
+      <h1>Got D</h1>
+    ​{% else %} ​
+      <h1>faild</h1>
+    ​{% endif %}
+  </body>
+</html>

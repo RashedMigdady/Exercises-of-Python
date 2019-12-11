@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec  6 19:15:03 2019
-@author: abdala
-Title:
-Project 3 Database
-Description:
-desktop interface to add employees information to the database (sqlite)
-and view them on desktop window,
-"""
-
 import sqlite3
 from tkinter import *
 from tkinter import scrolledtext
@@ -63,29 +51,6 @@ class Employee:
 
     def __del__(self):
         self.__conn.close()
-
-
-# TODO: TEST - DELETE IT LATER
-# employees = Employee()
-
-# employees.add_record({
-#     "number": 2,
-#     "name": "Abdullah",
-#     "gender": "male",
-#     "nationality": "Jordanian",
-#     "dob": "03-06-1993",
-#     "address": "Amman, Jordan",
-#     "department": "IT",
-#     "salary": 9999500
-# })
-
-# employees.delete_reocrd(1)
-
-# employees.update_record({"name": 'Abd', }) # TODO: NOT WORKING YET
-
-# employees_list = list(employees.get_record())
-# print(employees_list)
-
 
 # DESKTOP WINDOWS
 class Windows:
